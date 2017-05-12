@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>myBlog - Shaira Cruz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="js/skrollr.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/custom.js"></script>
+        
+</head>
+<body> 
+    
+    <div class="parallax-image-wrapper"
+        data-anchor-target="#page-intro"
+        data-bottom-top="transform:translateY(200%)"
+        data-top-bottom="transform:translateY(0)">
+    
+        <div class="parallax-image ban"
+            data-anchor-target="#page-intro"
+            data-bottom-top="transform: translateY(-80%);"
+            data-top-bottom="transform: translateY(80%);">
+        </div>
+        
+    </div>
+    
+    <div class="parallax-image-wrapper skrollable skrollable-between" 
+             data-anchor-target=".body-text + .gap" 
+             data-bottom-top="transform:translateY(200%)" 
+             data-top-bottom="transform:translateY(0)" 
+             style="transform: translateY(150.562%);">
+
+            <div class="parallax-image skrollable skrollable-between" 
+                 style="background-image: url(&quot;/var/www/projects/trial/img/bg3.jpg&quot;); 
+                 transform: translateY(-40.4494%);" 
+                 data-anchor-target=".body-text + .gap" 
+                 data-bottom-top="transform: translateY(-80%);" 
+                 data-top-bottom="transform: translateY(80%);">
+
+            </div>
+        </div>
+        
+        <!--<div class="parallax-image-wrapper skrollable skrollable-before" 
+             data-anchor-target=".features-list + .gap" 
+             data-bottom-top="transform:translateY(200%)" 
+             data-top-bottom="transform:translateY(0)" 
+             style="transform: translateY(200%);">
+
+            <div class="parallax-image skrollable skrollable-before" 
+                 style="background-image: url(&quot;/var/www/projects/trial/img/bg2.jpg&quot;); 
+                 transform: translateY(-80%);" 
+                 data-anchor-target=".features-list + .gap" 
+                 data-bottom-top="transform: translateY(-80%);" 
+                 data-top-bottom="transform: translateY(80%);">
+
+            </div>
+        </div>-->
+    <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+    </div>
+        
+    <div id="skrollr-body">
+        
+        <div id="page-intro" class="gap ban">
+            
+            <header id="header">
+                <div class="content">
+                    <div id="logo">
+                        <a href="#" onclick="openNav()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shaira Cruz</a>
+                    </div>
+
+                    <nav id="nav">
+                        <ul>
+                            <li><a href="#slide1" class="active" title="Next Section">Home</a></li>
+                            <li><a href="#slide2" title="Next Section">Contact</a></li>
+                            <li><a href="#slide3" title="Next Section">About</a></li>
+                            <li><a href="#slide4" title="Next Section">Faq</a></li>
+                            <li><a href="#slide5" title="Next Section">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            
+            <h1 class="greet">Welcome!</h1>
+            <!--<a href="http://tutorialzine.com/2015/09/6-practical-examples-for-building-parallax-websites/" class="btn">Download it</a>-->
+        </div>
+        
+        <div class="body-text context bgwater">
+           
+            <h2 class="greet">About Me</h2>
+            <p data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida in odio vel tincidunt. Fusce quis lectus accumsan, accumsan nibh sed, aliquet purus. In vitae velit eu est cursus malesuada sed ut nibh. Curabitur a leo enim.
+            </p>
+            <p data-200-center-top="transform: scale(0.8); opacity: 0" data-200-center-center="transform: scale(1); opacity: 1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida in odio vel tincidunt. Fusce quis lectus accumsan, accumsan nibh sed, aliquet purus. In vitae velit eu est cursus malesuada sed ut nibh. Curabitur a leo enim.
+            </p>
+            <p data-100-center-top="transform: scale(0.8); opacity: 0" data-100-center-center="transform: scale(1); opacity: 1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida in odio vel tincidunt. Fusce quis lectus accumsan, accumsan nibh sed, aliquet purus. In vitae velit eu est cursus malesuada sed ut nibh. Curabitur a leo enim.
+            </p>
+        </div>
+        
+        <div id="page-intro" class="gap"> </div>
+        
+        <div class="gallery"></div>
+        
+        <div class="gap marg">
+            <h1 class="greet">What's on your mind?</h1>
+            <div>
+                <form id="gform" method="POST" class="pure-form pure-form-stacked"
+                      action="https://script.google.com/macros/s/AKfycbzzJ-Lv1jdgKOiYMEfg9rG_-mWmD2ncwv86vH7oXRU36D2vy40/exec">
+                    <!-- change the form action to your script url -->
+
+                    <fieldset class="pure-group">
+                        <label for="name">Name: </label>
+                        <input id="name" name="name" required value=""
+                               placeholder="What your Mom calls you" />
+                    </fieldset>
+
+                    <fieldset class="pure-group">
+                        <label for="message">Message: </label>
+                        <textarea id="message" name="message" rows="10" required
+                                  placeholder="Tell us what's on your mind..."></textarea>
+                    </fieldset>
+
+                    <fieldset class="pure-group">
+                        <label for="email"><em>Your</em> Email Address:</label>
+                        <input id="email" name="email" type="email" value=""
+                               required placeholder="your.name@email.com"/>
+                        <span id="email-invalid" style="visibility:hidden">
+                            Must be a valid email address</span>
+                    </fieldset>
+
+                    <button class="button-success pure-button button-xlarge">
+                        <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+                </form>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer-left">
+                <h3>ShaiCruz</h3>
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    ·
+                    <a href="#">Blog</a>
+                    ·
+                    <a href="#">About</a>
+                    ·
+                    <a href="#">Faq</a>
+                    ·
+                    <a href="#">Contact</a>
+                </p>
+                <p class="footer-company-name">Shaira Cruz &copy;2017</p>
+            </div>
+            <div class="footer-right"  
+                 data-bottom-top="max-width: 200px;" 
+                 data-bottom-bottom="max-width: 600px;">
+                <form method="get" action="#">
+                    <input placeholder="Search our website"  />
+                    <i class="material-icons">search</i>
+                </form>
+            </div>
+        </footer>
+    </div>
+        
+    <div class="scroll-pause" 
+         data-anchor-target=".gallery" 
+         data-100p-top-top="transform:translateY(100%);" 
+         data-top-top="transform:translateY(0%)" 
+         data--150p-top-top="" 
+         data--300p-top-top="transform:translateY(-100%)">
+
+        <div class="row" data-anchor-target=".gallery" 
+             data-top-top="transform: translateX(0%);" 
+             data--150p-top-top="transform: translateX(-50%);">
+            <div class="ban2" ></div>
+            <div class="ban4" ></div>
+            <div class="ban5" ></div>
+            <div class="ban6" ></div>
+            <div class="ban2" ></div>
+            <div class="ban4" ></div>
+            <div class="ban5" ></div>
+            <div class="ban6" ></div>
+        </div>
+
+
+        <div class="row" data-anchor-target=".gallery" 
+             data-top-top="transform: translateX(-50%);" 
+             data--150p-top-top="transform: translateX(0);">
+
+            <div class="ban6" ></div>
+            <div class="ban5" ></div>
+            <div class="ban4" ></div>
+            <div class="ban2" ></div>
+            <div class="ban6" ></div>
+            <div class="ban5" ></div>
+            <div class="ban4" ></div>
+            <div class="ban2" ></div>
+
+        </div>
+    </div>
+
+</body>
+</html>
