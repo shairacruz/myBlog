@@ -15,31 +15,31 @@ body, html {
 
 .ban{
     /* The image used */
-    background-image: url('/var/www/projects/trial/img/img1.jpg');
+    background-image: url('../img/img1.jpg');
 }
 
 .ban2{
-    background-image: url('/var/www/projects/trial/img/bg1.jpg');
+    background-image: url('../img/mar2.jpg');
 }
 
 .ban3{
-    background-image: url('/var/www/projects/trial/img/bg3.jpg');
+    background-image: url('../img/mar1.jpg');
 }
 
 .ban4{
-    background-image: url('/var/www/projects/trial/img/bg2.jpg');
+    background-image: url('../img/mar5.jpg');
 }
 
 .ban5{
-    background-image: url('/var/www/projects/trial/img/bg4.jpg');
+    background-image: url('../img/mar8.jpg');
 }
 
 .ban6{
-    background-image: url('/var/www/projects/trial/img/bg5.jpg');
+    background-image: url('../img/mar13.jpg');
 }
 
 .bgwater{
-    background-image: url('/var/www/projects/trial/img/bgwater.png');
+	/*background-image: url('../img/bgwater.png');*/
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
